@@ -12,10 +12,14 @@ This repository contains a simple RAG-based chatbot built with Python and the Op
    ```bash
    export OPENAI_API_KEY=your_key
    ```
-3. Start the chatbot:
+3. Launch the Streamlit app:
    ```bash
-   python rag_chatbot.py
+   streamlit run streamlit_app.py
    ```
 
-The bot stores conversation history in `chat_history.json` and reuses previous
-answers when similar questions are asked again.
+The app will open in your browser and store conversation history in
+`chat_history.json`, reusing previous answers when similar questions are asked
+again.
+
+> The original terminal chatbot can still be started with
+> `python rag_chatbot.py` if desired.
