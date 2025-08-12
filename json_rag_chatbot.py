@@ -1,4 +1,4 @@
-"""Simple RAG-based chatbot using OpenAI API.
+"""JsonRAGChatbot: simple RAG-based chatbot using OpenAI API.
 
 The bot keeps a local JSON history of past questions and answers along with
 embeddings. When a new question arrives, it searches the history for the most
@@ -9,7 +9,7 @@ OpenAI Chat API and the resulting answer is stored for future reuse.
 To run:
   1. Install dependencies: `pip install -r requirements.txt`
   2. Set your API key: `export OPENAI_API_KEY=...`
-  3. Start the bot: `python rag_chatbot.py`
+  3. Start the bot: `python json_rag_chatbot.py`
 
 The conversation history is stored in `chat_history.json` in the current
 working directory.
