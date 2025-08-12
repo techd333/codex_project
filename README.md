@@ -1,6 +1,6 @@
-# codex_project
+# JsonRAGChatbot
 
-This repository contains a simple RAG-based chatbot built with Python and the OpenAI API.
+JsonRAGChatbot is a simple RAG-based chatbot built with Python and the OpenAI API.
 
 ## Usage
 
@@ -22,4 +22,4 @@ The app will open in your browser and store conversation history in
 again.
 
 > The original terminal chatbot can still be started with
-> `python rag_chatbot.py` if desired.
+> `python json_rag_chatbot.py` if desired.

@@ -1,5 +1,5 @@
 import streamlit as st
-from rag_chatbot import (
+from json_rag_chatbot import (
     load_history,
     save_history,
     search_similar,
@@ -7,7 +7,7 @@ from rag_chatbot import (
     THRESHOLD,
 )
 
-st.title("RAG Chatbot")
+st.title("JsonRAGChatbot")
 
 if "history" not in st.session_state:
     st.session_state.history = load_history()
